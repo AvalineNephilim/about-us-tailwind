@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to CSS File -->
+    <link rel="stylesheet" href="../dist/output.css">
+
+    <!-- CDN Link for Font awesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!-- Link to Poppin Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>About Us Page</title>
+</head>
+
+<body class="m-0 p-0 border-box font-poppins w-screen overflow-x-hidden">
+    <!-- Home section starts -->
+    <section class="home w-full relative" id="home">
+        <nav class="w-full h-12 p-2 bg-zinc-300 flex items-center justify-between md:h-14 xl:justify-around">
+            <div class="w-24 ml-3 md:w-28 xl:ml-0">
+                <img class="w-full" src="../img/logo.png" alt="logo">
+            </div>
+            <ul class="hidden md:flex md:items-center md:gap-4 md:mr-6 md:text-white xl:mr-0 xl:gap-6">
+                <li><a class="hover:md:text-indigo-700 transition-colors duration-700 ease-in-out" href="#">Home</a>
+                </li>
+                <li><a class="hover:md:text-indigo-700 transition-colors duration-700 ease-in-out" href="#">Services</a>
+                </li>
+                <li><a class="hover:md:text-indigo-700 transition-colors duration-700 ease-in-out" href="#">Products</a>
+                </li>
+                <li><a class="hover:md:text-indigo-700 transition-colors duration-700 ease-in-out"
+                        href="#">Researches</a></li>
+                <li><a class="hover:md:text-indigo-700 transition-colors duration-700 ease-in-out"
+                        href="#">Education</a></li>
+                <li><button
+                        class="md:bg-indigo-700 md:rounded md:py-1 md:px-3 hover:md:bg-indigo-800 transition-colors duration-700 ease-in-out"><a
+                            href="#">Contact Us</a> <i class="fa-solid fa-eyes"></i></button></li>
+            </ul>
+            <div class="humburger mr-4 md:hidden">
+                <i class="fa-solid fa-bars"></i>
+                <!-- <i class="fa-solid fa-xmark"></i> -->
+            </div>
+        </nav>
+        <div
+            class="m-4 p-3 relative text-center flex flex-col items-center justify-center bg-[url('../img/HomeBg.png')] bg-contain bg-no-repeat bg-center">
+            <div class="w-full">
+                <h1 class="text-lg font-bold mb-4 sm:text-xl md:text-2xl lg:font-extrabold lg:text-3xl lg:mt-4 lg:mb-6">
+                    Accessible Science and Technology</h1>
+                <p class="text-sm font-light sm:text-base sm:font-normal md:text-lg">We are developing the best
+                    algorithms for everyone to utilize and create impact.</p>
+            </div>
+            <div class="w-full m-4 md:w-4/5 lg:w-5/6">
+                <img src="../img/home_git.gif" alt="Gif Image">
+            </div>
+        </div>
+    </section>
+    <!-- Home section ends -->
+
+    <!-- Video section starts -->
+    <section
+        class="video md:h-screen w-full relative bg-[url('../img/HomeBg.png')] bg-contain bg-no-repeat bg-center flex items-center justify-center"
+        id="video">
+        <video src="../img/vid-1.mp4" id="vdo" muted loop class="relative object-cover w-10/12 md:w-3/5 z-10"></video>
+    </section>
+    <!-- Video section ends -->
+
+    <!-- About R & B section starts -->
+    <section
+        class="rab w-full relative bg-[url('../img/OurStoryBg.png')] bg-contain bg-no-repeat bg-center flex-col flex items-center gap-y-12 tracking-wide py-8"
+        id="rab">
+        <h2 class="ext-md sm:text-lg md:text-xl lg:text-2xl font-bold md:font-extrabold">
+            About
+            Robust & Best</h2>
+        <div class="flex w-full md:w-9/12 justify-evenly flex-col md:flex-row items-center gap-x-4 md:gap-6">
+            <img class="w-4/12 mb-8 sm:w-5/12 md:w-[30%]" src="../img/aboutImg.png" alt="Scientist">
+            <div class="contentBx mt-8 w-9/12 md:w-6/12">
+                <div class="description text-justify gap-y-8 flex flex-col">
+                    <p>
+                        We are techies, enthusiasts, engineers, and scientists who want to create a positive impact for
+                        a better world by using our skills and developing the best technologies. Our sole purpose is to
+                        create a positive impact using technology and we oppose all technology misuse to oppress or
+                        distress people. We exercise the best practices in science and technology to protect the
+                        exploitation.
+                    </p>
+                    <div class="subsection">
+                        <h3 class="font-semibold text-lg mb-1.5"> Responsible AI</h3>
+                        <p>We are currently developing responsible AI practices in our machine-learning models. </p>
+                    </div>
+                    <div class="subsection">
+                        <h3 class="font-semibold text-lg mb-1.5"> Digital Rights</h3>
+                        <p>We will always protect individual digital rights and we are working with organizations to
+                            resolve digital rights issues. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About R & B section ends -->
+
+    <!-- Our Story section starts -->
+    <section
+        class="ourstory w-full relative bg-[url('../img/OurStoryBg.png')] bg-contain bg-no-repeat bg-center flex-col flex items-center gap-y-12 tracking-wide py-8"
+        id="ourstory">
+        <h2 class="text-md sm:text-lg md:text-xl lg:text-2xl font-bold md:font-extrabold ">Our Story
+        </h2>
+        <div class="flex w-full md:w-9/12 justify-evenly flex-col md:flex-row items-center gap-x-4 md:gap-6">
+            <div class="contentBx mb-8 w-9/12 md:w-6/12">
+                <div class="description text-justify gap-y-8 flex flex-col">
+                    <p>
+                        Robust & Best (R&B) was founded in 2019 to strengthen technological development in Myanmar. R&B
+                        was later working on two main programs to achieve the primary objective, “making impact”, with
+                        sustainable business model.
+                    </p>
+                    <div class="subsection">
+                        <h3 class="font-semibold text-lg mb-1.5"> Robuster </h3>
+                        <p>We build the top-notch algorithms and models to provide product to our community in creating
+                            impact.</p>
+                    </div>
+                    <div class="subsection">
+                        <h3 class="font-semibold text-lg mb-1.5"> Data Impact </h3>
+                        <p>Data impact program utilizes the data for social good, focusing on exploratory research,
+                            digital rights, and technological development collaborating with medias, NGOs, INGOs, and
+                            activist organization. </p>
+                    </div>
+                </div>
+            </div>
+            <img class="mt-8 w-6/12 sm:w-7/12 md:w-[30%]" src="../img/ourStoryImg.png" alt="Scientist">
+        </div>
+    </section>
+    <!-- Our Story section ends -->
+
+    <!-- Our Mission section starts -->
+    <section
+        class="ourmission w-full relative bg-[url('../img/OurMissionBg.png')] bg-contain bg-no-repeat bg-center flex-col flex items-center gap-y-12 tracking-wide py-8"
+        id="ourmission">
+        <h2 class="ext-md sm:text-lg md:text-xl lg:text-2xl font-bold md:font-extrabold">
+            Our Mission</h2>
+        <div class="flex w-full md:w-9/12 justify-evenly flex-col md:flex-row items-center gap-x-4 md:gap-6">
+            <img class="w-5/12 mb-8 sm:w-6/12 md:w-[30%]" src="../img/ourMissionImg.png" alt="Scientist">
+            <div class="contentBx mt-8 w-9/12 md:w-6/12">
+                <div class="description text-justify gap-y-8 flex flex-col">
+                    <div class="subsection">
+                        <h3 class="font-semibold text-lg mb-1.5"> What We Do</h3>
+                        <p>We bring technological advancement in Burmese NLP and computer vision. We build reliable
+                            algorithms, models, and infrastructures to support the community with very affordable price.
+                        </p>
+                    </div>
+                    <div class="subsection">
+                        <h3 class="font-semibold text-lg mb-1.5"> Why We Do</h3>
+                        <p>We believe that technology should be all inclusive to make persistent development and create
+                            impact for the mankind. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our Mission section ends -->
+
+    <!-- Who Are We section starts -->
+    <section
+        class="who w-full relative bg-[url('../img/OurMissionBg.png')] bg-contain bg-no-repeat bg-center flex-col flex items-center gap-y-12 tracking-wide py-8"
+        id="who">
+        <h2 class="text-md sm:text-lg md:text-xl lg:text-2xl font-bold md:font-extrabold">Who Are We</h2>
+        <div class="container relative flex flex-col md:flex-row items-center justify-around p-4 gap-6">
+            <div class="box w-auto">
+                <div class="relative flex justify-center">
+                    <img class="sm:w-54 sm:h-54 md:w-72 md:h-72 rounded-full " src="../img/alex.jpg" alt="">
+                    <!-- <img class="imageBg absolute w-[22rem]" src="../img/ImageBg.png" alt=""> -->
+                </div>
+
+                <div class="content pt-4">
+                    <h3 class="uppercase text-md md:text-lg tracking-wide text-center md:tracking-widest"> alexander
+                        <br> beatson
+                    </h3>
+                    <p class="text-center capitalize text-gray-700">founder / data scientist</p>
+                </div>
+            </div>
+
+            <div class="box w-auto">
+                <div>
+                    <img class="sm:w-54 sm:h-54 md:w-72 md:h-72 rounded-full " src="../img/alex.jpg" alt="">
+                    <div class="content pt-4">
+                        <h3 class="uppercase text-md md:text-lg tracking-wide text-center md:tracking-widest"> alexander
+                            <br> beatson
+                        </h3>
+                        <p class="text-center capitalize text-gray-700">founder / data scientist</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box w-auto">
+                <div>
+                    <img class="sm:w-54 sm:h-54 md:w-72 md:h-72 rounded-full " src="../img/alex.jpg" alt="">
+                    <div class="content pt-4">
+                        <h3 class="uppercase text-md md:text-lg tracking-wide text-center md:tracking-widest"> alexander
+                            <br> beatson
+                        </h3>
+                        <p class="text-center capitalize text-gray-700">founder / data scientist</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="image1 absolute w-28 sm:w-40 object-cover z-[-1] top-0 right-0">
+            <img src="../img/TopRight.png" alt="">
+        </div>
+        <div class="image2 absolute w-28 sm:w-40 object-cover z-[-1] bottom-0 left-0">
+            <img src="../img/BottomLeft.png" alt="">
+        </div>
+    </section>
+    <!-- Who Are We section ends -->
+
+    <!-- Map + Join us section starts -->
+    <section class="map w-full relative" id="map">
+        <div class="map_wrapper w-full mb-8">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.1677976619644!2d-106.95709208427577!3d44.79776887909881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5335fbeebfdba2bb%3A0x433452124d08131e!2s30%20N%20Gould%20St%20ste%20r%2C%20Sheridan%2C%20WY%2082801%2C%20USA!5e0!3m2!1sen!2sth!4v1664778948954!5m2!1sen!2sth"
+                width="100%" height="470" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="content_wrapper text-center m-4 p-4 mb-8">
+            <h3 class="mb-8 text-lg md:text-xl md:font-semibold lg:font-bold lg:text-2xl">Join Us</h3>
+            <p class="text-justify px-12 md:px-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos nulla
+                quibusdam esse corrupti asperiores deserunt, sint pariatur quia omnis, repellendus unde aliquid mollitia
+                iure repellat doloribus odio autem obcaecati. Dignissimos.Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Dignissimos nulla quibusdam esse corrupti asperiores deserunt, sint pariatur quia
+                omnis, repellendus unde aliquid mollitia iure repellat doloribus odio autem obcaecati. Dignissimos.
+            </p>
+        </div>
+
+        <!-- Join Us Section starts -->
+        <div class="job_wrapper mx-14 md:mx-24 p-4 bg-[url('../img/JoinUsBg.png')] bg-contain bg-no-repeat bg-center">
+            <div class="pb-6 mb-6 pt-[0.2rem] border-b-2">
+                <details class="m-4 px-8">
+                    <summary class="text-md md:text-lg">AI Specialist</summary>
+                    <p class="mt-5 ml-8 text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae
+                        consectetur corrupti impedit ab voluptas dolores pariatur repellendus, itaque tenetur expedita.
+                    </p> <br>
+                    <span class="uppercase ml-8">must have:</span>
+                    <ul class="mt-6 ml-12 list-decimal">
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque?</li>
+                        <li>Lorem, ipsum dolor.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi.</li>
+                    </ul>
+                    <button
+                        class="ml-12 mt-6 py-2 px-6 bg-indigo-500 hover:bg-indigo-700 text-white text-md rounded-sm pointer transition ease-in-out">Apply</button>
+                </details>
+            </div>
+
+            <div class="pb-6 mb-6 pt-[0.2rem] border-b-2">
+                <details class="m-4 px-8">
+                    <summary class="text-md md:text-lg">Business Strategy Specialist</summary>
+                    <p class="mt-5 ml-8 text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae
+                        consectetur corrupti impedit ab voluptas dolores pariatur repellendus, itaque tenetur expedita.
+                    </p> <br>
+                    <span class="uppercase ml-8">must have:</span>
+                    <ul class="mt-6 ml-12 list-decimal">
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque?</li>
+                        <li>Lorem, ipsum dolor.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi.</li>
+                    </ul>
+                    <button
+                        class="ml-12 mt-6 py-2 px-6 bg-indigo-500 hover:bg-indigo-700 text-white text-md rounded-sm pointer transition ease-in-out">Apply</button>
+                </details>
+            </div>
+
+            <div class="pb-6 mb-6 pt-[0.2rem] border-b-2">
+                <details class="m-4 px-8">
+                    <summary class="text-md md:text-lg">UI/Ux Designer</summary>
+                    <p class="mt-5 ml-8 text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae
+                        consectetur corrupti impedit ab voluptas dolores pariatur repellendus, itaque tenetur expedita.
+                    </p> <br>
+                    <span class="uppercase ml-8">must have:</span>
+                    <ul class="mt-6 ml-12 list-decimal">
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque?</li>
+                        <li>Lorem, ipsum dolor.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi.</li>
+                    </ul>
+                    <button
+                        class="ml-12 mt-6 py-2 px-6 bg-indigo-500 hover:bg-indigo-700 text-white text-md rounded-sm pointer transition ease-in-out">Apply</button>
+                </details>
+            </div>
+        </div>
+        <!-- Join Us Section ends -->
+
+    </section>
+    <!-- Map + Join us section ends -->
+</body>
+
+</html>
