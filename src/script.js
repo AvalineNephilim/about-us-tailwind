@@ -22,9 +22,10 @@ document.addEventListener("DOMContentLoaded", function (event) {
     })
     document.querySelectorAll('.apply').forEach((button) => {
         button.addEventListener('click', function (e) {
-            let position = e.target.getAttribute('data-position')
+            let data_position = e.target.getAttribute('data-position')
             // let position_form = document.getElementById('position')
-            document.getElementById('position').value = position
+            document.getElementById('position').value = data_position
+            // console.log(data_position)
             form.classList.toggle('hidden')
         })
     })
