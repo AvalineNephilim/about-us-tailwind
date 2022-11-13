@@ -309,32 +309,34 @@
                     <div class="flex flex-col md:flex-row w-full p-3 gap-x-4">
                         <div class="w-full md:w-1/2 flex flex-col gap-y-4">
                             <div class="w-full flex items-center gap-x-2">
-                                <label class="w-3/12" for="name">
+                                <label class="w-3/12 sm:w-4/12" for="name">
                                     Name:
                                 </label>
                                 <input type="text" class="px-3 py-2 w-8/12 rounded bg-white border" id="name" />
                             </div>
                             <div class="w-full flex items-center gap-x-2">
-                                <label class="w-3/12" for="email">
+                                <label class="w-3/12 sm:w-4/12" for="email">
                                     Email:
                                 </label>
                                 <input type="email" class="px-3 py-2 w-8/12 rounded bg-white border" id="email" />
                             </div>
                             <div class="w-full flex opacity-60 items-center gap-x-2">
-                                <label class="w-3/12" for="position">
+                                <label class="w-3/12 sm:w-4/12" for="position">
                                     Position:
                                 </label>
                                 <input disabled type="text" class="px-3 w-8/12 py-2 rounded bg-white border"
                                     id="position" />
                             </div>
-                            <input type="file" class="mt-2 mb-8 sm:mb-0" />
+                            <input type="file" class="mt-2 mb-8 md:mb-0" />
                         </div>
                         <div class="w-full md:w-1/2 flex gap-x-2 h-full">
-                            <label for="message" class="w-3/12">
-                                Message:
-                            </label>
-                            <textarea id="message" rows="5" class="px-3 w-8/12 py-2 rounded bg-white border">
-                            </textarea>
+                            <div class="w-full flex items-center gap-x-2">
+                                <label for="message" class="w-3/12 sm:w-5/12 mb-2">
+                                    Message:
+                                </label>
+                                <textarea id="message" rows="5" class="px-3 w-8/12 sm:9/12 py-2 rounded bg-white border">
+                                </textarea>
+                            </div>
                         </div>
                     </div>
                     <button
