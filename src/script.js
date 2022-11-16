@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     form.addEventListener('click', function (e) {
         if (e.target.classList.contains('form-container')) {
             form.classList.toggle('hidden')
+            document.body.classList.toggle('overflow-y-hidden')
         }
     })
     document.querySelectorAll('.apply').forEach((button) => {
@@ -27,6 +28,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
             document.getElementById('position').value = data_position
             // console.log(data_position)
             form.classList.toggle('hidden')
+            document.body.classList.toggle('overflow-y-hidden')
         })
     })
 });
