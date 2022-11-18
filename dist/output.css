@@ -685,12 +685,12 @@ video {
   height: 9rem;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
 .h-full {
   height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .w-screen {
@@ -749,6 +749,26 @@ video {
   width: 25%;
 }
 
+.w-2\/3 {
+  width: 66.666667%;
+}
+
+.w-2\/4 {
+  width: 50%;
+}
+
+.w-1\/4 {
+  width: 25%;
+}
+
+.w-3\/4 {
+  width: 75%;
+}
+
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .list-decimal {
   list-style-type: decimal;
 }
@@ -759,6 +779,10 @@ video {
 
 .flex-col-reverse {
   flex-direction: column-reverse;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-center {
@@ -866,16 +890,61 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-gray-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+}
+
+.bg-gray-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
+}
+
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
+.bg-blue-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
+}
+
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+.bg-slate-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+}
+
+.bg-slate-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'\.\.\/img\/HomeBg\.png\'\)\] {
   background-image: url('../img/HomeBg.png');
 }
 
-.bg-\[url\(\'\.\.\/img\/OurStoryBg\.png\'\)\] {
-  background-image: url('../img/OurStoryBg.png');
-}
-
 .bg-\[url\(\'\.\.\/img\/OurMissionBg\.png\'\)\] {
   background-image: url('../img/OurMissionBg.png');
+}
+
+.bg-\[url\(\'\.\.\/img\/OurStoryBg\.png\'\)\] {
+  background-image: url('../img/OurStoryBg.png');
 }
 
 .bg-\[url\(\'\.\.\/img\/JoinUsBg\.png\'\)\] {
@@ -999,6 +1068,21 @@ video {
   line-height: 1.75rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-9xl {
+  font-size: 8rem;
+  line-height: 1;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1045,6 +1129,10 @@ video {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .transition-colors {
@@ -1113,6 +1201,22 @@ video {
 
   .sm\:w-4\/12 {
     width: 33.333333%;
+  }
+
+  .sm\:w-2\/4 {
+    width: 50%;
+  }
+
+  .sm\:w-2\/3 {
+    width: 66.666667%;
+  }
+
+  .sm\:w-4\/6 {
+    width: 66.666667%;
+  }
+
+  .sm\:flex-nowrap {
+    flex-wrap: nowrap;
   }
 
   .sm\:py-8 {
